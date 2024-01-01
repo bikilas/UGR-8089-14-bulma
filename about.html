@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="./about.html">
+    <link rel="stylesheet" href="./accomp.html">
+    <link rel="stylesheet" href="./favorite.html">
+    <link rel="stylesheet" href="./contact.html">
+    <link rel="stylesheet" href=  "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body class="bg-image has-background-warning">
+  <marquee class="colored-marquee has-background-black has-text-danger" behavior="scroll" direction="right" width="100%" height="20px">BIKILA TARIKU'S WEBSITES</marquee>
+  
+  <section class="hero has-background-color">
+    <nav class="navbar is-spaced has-text-right" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger burger has-text-danger" aria-label="menu" aria-expanded="false" data-target="navbarMenu" onclick="toggleDropdown('navbarMenu')">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+  
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-start has-background-primary-dark" style="display: none;">
+          <a href="./index.html" class="navbar-item has-text-danger">home</a>
+          <a href="./about.html" class="navbar-item has-text-danger">about me</a>
+          <a href="./accomp.html" class="navbar-item has-text-danger">accomplishment</a>
+          <a href="./favorite.html" class="navbar-item has-text-danger">my favorite</a>
+          <a href="./contact.html" class="navbar-item has-text-danger">contact</a>
+        </div>
+      </div>
+    </nav>
+  </section>
+ <script src="./Java-script/bulma.js"></script>
+</body>
+<div class="logo is-size-3">
+  <h1 class="is-size-3"></h1>
+    <h1 class="logo-txt"> <span class="is-size-3">Bori</span>Fan</h1>
+  </div    
+<nav class="hero-foot has-text-info has-background-dark">
+  <div class="columns has-text-info has-background-dark">
+    <div class="column is-hidden-mobile">
+      <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+          <button class="button has-text-danger has-background-dark is-danger" aria-haspopup="true" aria-controls="homeDropdown">
+            <span>Home</span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="homeDropdown" role="menu">
+          <div class="dropdown-content">
+            <a href="./index.html" class="dropdown-item has-text-danger">Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column is-hidden-mobile">
+      <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+          <button class="button has-text-danger has-background-dark is-danger" aria-haspopup="true" aria-controls="aboutDropdown">
+            <span>About Me</span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="aboutDropdown" role="menu">
+          <div class="dropdown-content">
+            <a href="./about.html" class="dropdown-item has-text-danger">About Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column is-hidden-mobile">
+      <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+          <button class="button has-text-danger has-background-dark is-danger" aria-haspopup="true" aria-controls="accompDropdown">
+            <span>Accomplishment</span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="accompDropdown" role="menu">
+          <div class="dropdown-content">
+            <a href="./accomp.html" class="dropdown-item has-text-danger">Accomplishment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column is-hidden-mobile">
+      <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+          <button class="button has-text-danger has-background-dark is-danger" aria-haspopup="true" aria-controls="favoriteDropdown">
+            <span>My Favorite</span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="favoriteDropdown" role="menu">
+          <div class="dropdown-content">
+            <a href="./favorite.html" class="dropdown-item has-text-danger">My Favorite</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column is-hidden-mobile">
+      <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+          <button class="button has-text-danger has-background-dark is-danger" aria-haspopup="true" aria-controls="contactDropdown">
+            <span>Contact</span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="contactDropdown" role="menu">
+          <div class="dropdown-content">
+            <a href="./contact.html" class="dropdown-item has-text-danger">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>  
+<div id="slideshow-container">
+    <section>
+      <div class="container">
+        <div class="columns">
+          <div class="column is-one-third">
+            <figure class="aboutpic">
+              <img src="./images/ambas.jpg" alt="photo of me" class="aboimg">
+              <figcaption class="has-text-danger">Photo taken on my way to Addis</figcaption>
+            </figure>
+          </div>
+          
+          <div class="column is-two-thirds">
+            <aside class="abtaside">
+              <h1 class="has-text-danger has">My Story</h1>
+              <p class="has-text-info ">
+                I'm thrilled to share a little bit about myself. Currently, I am a third-year Software Engineering student at AAU, where I am immersing myself in the fascinating world of technology and its applications. My passion for problem-solving and innovation led me to pursue this field, and I am constantly amazed by the endless possibilities it offers.
+                <br><br>
+                Throughout my academic journey, I have developed intermediate knowledge in web development, allowing me to create dynamic and user-friendly websites. I have also delved into Java development, where I've gained a strong understanding of object-oriented programming and its practical applications.
+                <br><br>
+                I believe that technology has the power to transform lives and make a positive impact. I am driven to leverage my skills and knowledge to create solutions that address real-world challenges and enhance user experiences. I am always eager to learn and stay up-to-date with the latest advancements in the industry, as I believe continuous learning is crucial in this fast-paced field.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+    <footer class="footer has-background-primary is-small">
+      <div class="footer-copy">
+        <i class="far fa-copyright">Bikila Tariku/AAiT</i>
+      </div>
+      <div class="footer-icon is-flex is-justify-content-flex-end is-align-items-center">
+        <ul class="fotul is-flex">
+          <li class="fotlin">
+            <a href="https://www.facebook.com/me/" title="facebook" class="fb" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+          </li>
+          <li class="fotlin ml-3">
+            <a href="https://t.me/FFO100" title="telegram" class="tel" target="_blank"><i class="fab fa-telegram fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
